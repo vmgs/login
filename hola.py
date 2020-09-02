@@ -15,5 +15,5 @@ dataflair_df1.columns = [x.lower() for x in dataflair_df1.columns]
 dataflair_df1
 dataflair_s1.values
 dataflair_df1.values
-hola = 3+6
+hola = 3+61
 print("HOLA "+str(hola))
