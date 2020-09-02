@@ -17,6 +17,10 @@ dataflair_s1.values
 dataflair_df1.values
 hola = 23+6122
 print("HOLA "+str(hola))
-# victor.gonzalez@lasallistas.org.mx @vmgs
+# victor.gonza.venv\lez@lasallistas.org.mx @vmgs
 # //@vmgs
 
+import PyPDF2 as pypdf
+pdfobject=open('incometaxform_filled.pdf','rb')
+pdf=pypdf.PdfFileReader(pdfobject)
+pdf.getFormTextFields()
