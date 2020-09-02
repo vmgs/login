@@ -15,7 +15,7 @@ dataflair_df1.columns = [x.lower() for x in dataflair_df1.columns]
 dataflair_df1
 dataflair_s1.values
 dataflair_df1.values
-hola = 2+1
+hola = 2+13
 print("HOLA "+str(hola))
 # victor.gonza.venv\lez@lasallistas.org.mx @vmgs
 # //@vmgs
