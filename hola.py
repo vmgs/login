@@ -19,7 +19,6 @@ hola = 2+1
 print("HOLA "+str(hola))
 # victor.gonza.venv\lez@lasallistas.org.mx @vmgs
 # //@vmgs
-
 import PyPDF2 as pdf
 pdfFileObj = open('c:\\a.pdf', 'rb')
 pdfReader = pdf.PdfFileReader(pdfFileObj)
