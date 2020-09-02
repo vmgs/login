@@ -15,12 +15,15 @@ dataflair_df1.columns = [x.lower() for x in dataflair_df1.columns]
 dataflair_df1
 dataflair_s1.values
 dataflair_df1.values
-hola = 23+6122
+hola = 2+1
 print("HOLA "+str(hola))
 # victor.gonza.venv\lez@lasallistas.org.mx @vmgs
 # //@vmgs
 
-import PyPDF2 as pypdf
-pdfobject=open('incometaxform_filled.pdf','rb')
-pdf=pypdf.PdfFileReader(pdfobject)
-pdf.getFormTextFields()
+import PyPDF2 as pdf
+pdfFileObj = open('c:\\a.pdf', 'rb')
+pdfReader = pdf.PdfFileReader(pdfFileObj)
+print(pdfReader.numPages)
+
+pageObj = pdfReader.getPage(0)
+print(pageObj.extractText())
